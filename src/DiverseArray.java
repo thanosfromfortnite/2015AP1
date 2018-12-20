@@ -24,7 +24,7 @@ public class DiverseArray {
         int[] x = rowSums(arr2D);
         for (int i = 0; i < x.length - 1; i ++) {
             for (int j = i + 1; j < x.length; j ++) {
-                if (arr2D[i] == arr2D[j]) {
+                if (x[i] == x[j]) {
                     return false;
                 }
             }
